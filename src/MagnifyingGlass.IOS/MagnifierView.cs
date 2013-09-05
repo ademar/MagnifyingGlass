@@ -18,7 +18,7 @@ namespace Xamarin.Controls
 		public UIImage GlassImage;
 		public bool DrawGlass = true;
 		
-        public MagnifierView ()
+        public MagnifierView (UIView viewToMagnify)
         {
 			Frame = new RectangleF (0, 0, Radius*2, Radius*2);
 			
@@ -30,6 +30,8 @@ namespace Xamarin.Controls
             BackgroundColor = UIColor.White;
 
 			GlassImage = UIImage.FromFile("loupe-hi@2x.png");
+
+			ViewToMagnify = viewToMagnify;
         }
 		
 		public void SetTouchPoint (PointF pt)
