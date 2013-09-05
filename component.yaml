@@ -6,8 +6,8 @@ publisher-url: http://codemaker.net
 summary: A magnifiying glass or loupe fo iOS
 popover: component/popover.gif
 libraries:
-  ios: src/MagnifiyingGlass.IOS/bin/Release/MagnifiyingGlass.IOS.dll
+  ios: src/MagnifyingGlass.IOS/bin/Release/MagnifyingGlass.IOS.dll
 samples:
-  "iOS Samples": sample/MagnifiyingGlass.IOS.Sample/MagnifiyingGlass.IOS.Sample.sln
+  "iOS Samples": sample/MagnifyingGlass.IOS.Sample/MagnifyingGlass.IOS.Sample.sln
 build:
-  - src/MagnifiyingGlass.IOS/MagnifiyingGlass.IOS.csproj
+  - src/MagnifyingGlass.IOS/MagnifyingGlass.IOS.csproj
