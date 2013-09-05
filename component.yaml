@@ -1,0 +1,13 @@
+version: 1.0.2
+name: Alert Center
+id: magnifiying-glass
+publisher: Code Maker Inc.
+publisher-url: http://codemaker.net
+summary: A magnifiying glass or loupe fo iOS
+popover: component/popover.gif
+libraries:
+  ios: src/MagnifiyingGlass.IOS/bin/Release/MagnifiyingGlass.IOS.dll
+samples:
+  "iOS Samples": sample/MagnifiyingGlass.IOS.Sample/MagnifiyingGlass.IOS.Sample.sln
+build:
+  - src/MagnifiyingGlass.IOS/MagnifiyingGlass.IOS.csproj

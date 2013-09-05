@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagnifyingGlass.IOS.Sample", "MagnifyingGlass.IOS.Sample\MagnifyingGlass.IOS.Sample.csproj", "{892077B9-E366-4F7F-BC49-5B1EC383BD0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagnifyingGlass.IOS", "..\..\src\MagnifyingGlass.IOS\MagnifyingGlass.IOS.csproj", "{B3B43F11-4356-4C48-9A03-2F5AE8784F7B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{892077B9-E366-4F7F-BC49-5B1EC383BD0B}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{892077B9-E366-4F7F-BC49-5B1EC383BD0B}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{892077B9-E366-4F7F-BC49-5B1EC383BD0B}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{892077B9-E366-4F7F-BC49-5B1EC383BD0B}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{892077B9-E366-4F7F-BC49-5B1EC383BD0B}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{892077B9-E366-4F7F-BC49-5B1EC383BD0B}.Debug|iPhone.Build.0 = Debug|iPhone
+		{892077B9-E366-4F7F-BC49-5B1EC383BD0B}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{892077B9-E366-4F7F-BC49-5B1EC383BD0B}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{892077B9-E366-4F7F-BC49-5B1EC383BD0B}.Release|iPhone.ActiveCfg = Release|iPhone
+		{892077B9-E366-4F7F-BC49-5B1EC383BD0B}.Release|iPhone.Build.0 = Release|iPhone
+		{892077B9-E366-4F7F-BC49-5B1EC383BD0B}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{892077B9-E366-4F7F-BC49-5B1EC383BD0B}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{B3B43F11-4356-4C48-9A03-2F5AE8784F7B}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{B3B43F11-4356-4C48-9A03-2F5AE8784F7B}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{B3B43F11-4356-4C48-9A03-2F5AE8784F7B}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{B3B43F11-4356-4C48-9A03-2F5AE8784F7B}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{B3B43F11-4356-4C48-9A03-2F5AE8784F7B}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{B3B43F11-4356-4C48-9A03-2F5AE8784F7B}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{B3B43F11-4356-4C48-9A03-2F5AE8784F7B}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{B3B43F11-4356-4C48-9A03-2F5AE8784F7B}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{B3B43F11-4356-4C48-9A03-2F5AE8784F7B}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{B3B43F11-4356-4C48-9A03-2F5AE8784F7B}.Release|iPhone.Build.0 = Release|Any CPU
+		{B3B43F11-4356-4C48-9A03-2F5AE8784F7B}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{B3B43F11-4356-4C48-9A03-2F5AE8784F7B}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = MagnifyingGlass.IOS.Sample\MagnifyingGlass.IOS.Sample.csproj
+	EndGlobalSection
+EndGlobal
