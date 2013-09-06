@@ -21,9 +21,10 @@ namespace MagnifyingGlass.IOS.Sample
 
 		public override void ViewWillAppear (bool animated)
 		{
-			//View.Frame = UIApplication.SharedApplication.KeyWindow.Frame;
-			documentView = new DocumentView (View.Frame);
+			var frame = UIScreen.MainScreen.Bounds;
+			documentView = new DocumentView (frame);
 			View.AddSubview(documentView);
+
 			base.ViewWillAppear (animated);
 		}
 
