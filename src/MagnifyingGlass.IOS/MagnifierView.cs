@@ -46,16 +46,34 @@ namespace Xamarin.Controls
 			//sets the glass in position
             Center = new PointF (touchPoint1.X - OffsetX, touchPoint1.Y - OffsetY);
         }
-		
+
+		float GetAngle ()
+		{
+			var orientation = UIApplication.SharedApplication.StatusBarOrientation;
+
+			switch (orientation) {
+				case UIInterfaceOrientation.LandscapeRight:
+				return (float)(Math.PI/2.0);
+				case UIInterfaceOrientation.LandscapeLeft:
+				return -(float)(Math.PI/2.0);
+				case UIInterfaceOrientation.PortraitUpsideDown:
+				return (float)Math.PI;
+			}
+
+			return 0.0f;
+		}
+
         public override void Draw (RectangleF rect)
         {
             var context = UIGraphics.GetCurrentContext ();
+
 			context.SaveState();
-			//Console.WriteLine ("{0}:{1}",Frame.Size.Width,Frame.Size.Width);
             context.TranslateCTM (1 * (Frame.Size.Width * 0.5f), 1 * (Frame.Size.Height * 0.5f));
+			context.RotateCTM (GetAngle());
             context.ScaleCTM (Scale, Scale);
+			//do we need to rotate touchPoint ?
             context.TranslateCTM (-1 * touchPoint.X, -1 * touchPoint.Y);
-			
+
             ViewToMagnify.Layer.RenderInContext (context);
 
 			context.RestoreState();
@@ -115,6 +133,5 @@ namespace Xamarin.Controls
 
 			RemoveFromSuperview();
 		}
-		
     }
 }
