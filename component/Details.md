@@ -1,4 +1,4 @@
-`MagnifyingGlass` displays a magnifiying glass or loupe.
+`MagnifyingGlass` displays a magnifying glass or loupe.
 
 ## iOS Example
 
