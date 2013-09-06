@@ -21,9 +21,6 @@ namespace MagnifyingGlass.IOS.Sample
 
 			AddSubview(uiimage);
 
-			//var uiimage = new UIImageView (new RectangleF(new PointF(0,0),image.Size));
-			//BackgroundColor = UIColor.FromPatternImage (image);
-
 			AutoresizingMask = UIViewAutoresizing.All;
 
 			loupe = new MagnifierView (this);
