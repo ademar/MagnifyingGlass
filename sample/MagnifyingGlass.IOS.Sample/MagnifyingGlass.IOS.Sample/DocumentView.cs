@@ -31,8 +31,7 @@ namespace MagnifyingGlass.IOS.Sample
 		{
 			var point = (touches.AnyObject as UITouch).LocationInView(this);
 
-			loupe.ActivateLoupe(point);
-			loupe.UpdateLoupe(point);
+			loupe.NotifyLoupe(point);
 		}
 
 		public override void TouchesMoved (NSSet touches, UIEvent evt)
