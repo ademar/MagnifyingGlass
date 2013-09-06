@@ -1,9 +1,9 @@
 version: 1.0.1
-name: Alert Center
-id: magnifiying-glass
+name: Magnifying Glass
+id: magnifying-glass
 publisher: Code Maker Inc.
 publisher-url: http://codemaker.net
-summary: A magnifiying glass or loupe fo iOS
+summary: A magnifying glass or loupe fo iOS
 libraries:
   ios: src/MagnifyingGlass.IOS/bin/Release/MagnifyingGlass.IOS.dll
 samples:
