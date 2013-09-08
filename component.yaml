@@ -3,7 +3,7 @@ name: Magnifying Glass
 id: magnifying-glass
 publisher: Code Maker Inc.
 publisher-url: http://codemaker.net
-summary: A magnifying glass or loupe fo iOS
+summary: A magnifying glass or loupe for iOS
 libraries:
   ios: src/MagnifyingGlass.IOS/bin/Release/MagnifyingGlass.IOS.dll
 samples:
