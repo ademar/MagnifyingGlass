@@ -14,7 +14,6 @@ namespace MagnifyingGlass.IOS.Sample
 		public MagnifyingGlass_IOS_SampleViewController ()
 			: base (UserInterfaceIdiomIsPhone ? "MagnifyingGlass_IOS_SampleViewController_iPhone" : "MagnifyingGlass_IOS_SampleViewController_iPad", null)
 		{
-			//AutoresizingMask = UIViewAutoresizing.FlexibleTopMargin | UIViewAutoresizing.FlexibleBottomMargin | UIViewAutoresizing.FlexibleHeight;
 		}
 
 		DocumentView documentView;
