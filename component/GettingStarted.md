@@ -2,7 +2,7 @@
 
 ## iOS Example
 
-Here is an example ilustrating how to enable the magnifying glass effect on a view and the use of properties that will allow you to customize the look and behaviour of the magnifiying glass.
+Here is an example illustrating how to enable the magnifying glass effect on a view and the use of properties that will allow you to customize the look and behaviour of the magnifiying glass.
 
 ```csharp
 using Xamarin.Controls;
