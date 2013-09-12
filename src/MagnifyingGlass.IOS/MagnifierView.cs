@@ -4,7 +4,7 @@ using MonoTouch.UIKit;
 using MonoTouch.Foundation;
 using MonoTouch.ObjCRuntime;
 
-namespace Xamarin.Controls
+namespace CodeMaker.Controls
 {
     public sealed class MagnifierView :UIView
     {

@@ -1,9 +1,9 @@
-using System;
-using MonoTouch.UIKit;
-using Xamarin.Controls;
-using MonoTouch.Foundation;
 using System.Drawing;
-using MonoTouch.ObjCRuntime;
+
+using MonoTouch.UIKit;
+using MonoTouch.Foundation;
+
+using CodeMaker.Controls;
 
 namespace MagnifyingGlass.IOS.Sample
 {

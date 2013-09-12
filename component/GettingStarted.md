@@ -8,7 +8,7 @@ Then to show and update the loupe's position we intercept the touches events.
 The following example shows how to enable the magnifying glass effect on a view and demostrates the uses of a number of properties to customize the look and feel of the magnifiying glass effect.
 
 ```csharp
-using Xamarin.Controls;
+using CodeMaker.Controls;
 ...
 
 class MyView : UIView 

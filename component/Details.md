@@ -5,7 +5,7 @@
 Here is a short example illustrating how simple it is to enable the magnifying glass effect on a view.
 
 ```csharp
-using Xamarin.Controls;
+using CodeMaker.Controls;
 ...
 
 class MyView : UIView 
