@@ -1,8 +1,11 @@
 `MagnifyingGlass` implements a magnifying glass or loupe effect that enlarges the graphic content under your touch.
 
-## Example
+## Getting Started
 
-Here is an example illustrating how to enable the magnifying glass effect on a view and the use of properties that will allow you to customize the look and behaviour of the magnifiying glass.
+To start using `MagnifyingGlass` all you need to do is call its constructor with the UIView we will be showing the magnifiying effect.
+Then to show and update the loupe's position we intercept the touches events. 
+
+The following example illustraes how to enable the magnifying glass effect on a view and the use of properties that will allow you to customize the look and behaviour of the magnifiying glass.
 
 ```csharp
 using Xamarin.Controls;
