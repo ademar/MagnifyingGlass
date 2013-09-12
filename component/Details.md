@@ -1,4 +1,4 @@
-`MagnifyingGlass` provides a magnifying glass or loupe effect that enlarges the graphic content under your touch.
+`MagnifyingGlass` implements a magnifying glass or loupe effect that enlarges the graphic content under your touch.
 
 ## Example
 
