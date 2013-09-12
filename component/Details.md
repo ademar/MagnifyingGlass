@@ -1,6 +1,6 @@
 `MagnifyingGlass` provides a magnifying glass or loupe effect that enlarges the graphic content under your touch.
 
-## iOS Example
+## Example
 
 Here is a simple example illustrating how to enable the magnifying glass effect on a view.
 
