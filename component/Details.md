@@ -2,7 +2,7 @@
 
 ## iOS Example
 
-Here is a simple example ilustrating how to enable the magnifying glass effect on a view.
+Here is a simple example illustrating how to enable the magnifying glass effect on a view.
 
 ```csharp
 using Xamarin.Controls;
