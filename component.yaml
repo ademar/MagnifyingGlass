@@ -4,6 +4,7 @@ id: magnifying-glass
 publisher: Code Maker Inc.
 publisher-url: http://codemaker.net
 summary: A magnifying glass or loupe for iOS
+popover: component/popover.gif
 libraries:
   ios: src/MagnifyingGlass.IOS/bin/Release/MagnifyingGlass.IOS.dll
 samples:
