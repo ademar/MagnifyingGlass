@@ -2,10 +2,10 @@
 
 ## Getting Started
 
-To start using `MagnifyingGlass` all you need to do is call its constructor with the UIView we will be showing the magnifiying effect.
+To start using `MagnifyingGlass` all you need to do is call its constructor with the UIView instance where the magnifiying effect will be shown.
 Then to show and update the loupe's position we intercept the touches events. 
 
-The following example illustraes how to enable the magnifying glass effect on a view and the use of properties that will allow you to customize the look and behaviour of the magnifiying glass.
+The following example illustraes how to enable the magnifying glass effect on a view and demostrates the uses of a number of properties to customize the look and feel of the magnifiying glass effect.
 
 ```csharp
 using Xamarin.Controls;
