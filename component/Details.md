@@ -16,7 +16,6 @@ class MyView : UIView
 	{
 		//in the constructor we pass the View we will be doing the effect on
 		loupe = new MagnifierView (this);
-		loupe.DelayInSeconds = 0.1;
 	}
 
 	public override void TouchesBegan (NSSet touches, UIEvent evt)
