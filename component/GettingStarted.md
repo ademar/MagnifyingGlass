@@ -2,7 +2,7 @@
 
 ## iOS Example
 
-Here is a simple sample of how to enable the magnifying glass effect on a view.
+Here is an example ilustrating how to enable the magnifying glass effect on a view and the use of properties that will allow you to customize the look and behaviour of the magnifiying glass.
 
 ```csharp
 using Xamarin.Controls;
@@ -16,7 +16,25 @@ class MyView : UIView
 	{
 		//in the constructor we pass the View we will be doing the effect on
 		loupe = new MagnifierView (this);
+		
+		//how long shall the user press before showing the loupe
 		loupe.DelayInSeconds = 0.1;
+		
+		//scale of magnification
+		loupe.Scale = 2.0f;
+		
+		//glass radius
+		loupe.Radius = 59;
+		
+		//use a different image for the loupe
+		loupe.GlassImage = UIImage.FromFile("loupe.png");
+		
+		//position of the loupe with respect to the touch point
+		loupe.OffsetX = 0.0f;
+		loupe.OffsetY = 60.0f;
+		
+		//to show or not the glass image, by default is true
+		loupe.Draw = true;
 	}
 
 	public override void TouchesBegan (NSSet touches, UIEvent evt)
